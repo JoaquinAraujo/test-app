@@ -10,8 +10,8 @@ Have Docker installed :)
 
 ```
 $ git clone [Use SSH or HTTP]
-$ docker build -t [image] test-app
-$ docker run -d -P [image]
+$ docker build -t [image]:[tag] test-app
+$ docker run -d -P [image]:[tag]
 ```
 
 ## License
