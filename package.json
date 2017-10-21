@@ -1,0 +1,35 @@
+{
+  "name": "test-app",
+  "version": "1.0.0",
+  "description": "Test Application with Docker",
+  "main": "server.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoaquinAraujo/test-app.git"
+  },
+  "keywords": [
+    "test",
+    "app",
+    "nodejs",
+    "docker",
+    "mocha"
+  ],
+  "author": "Joaquin Araujo <joaquinaraujojs@gmail.com> (https://twitter.com/JoaquinAraujoJS)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JoaquinAraujo/test-app/issues"
+  },
+  "homepage": "https://github.com/JoaquinAraujo/test-app#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "mocha": "^4.0.1",
+    "supertest": "^3.0.0"
+  }
+}
